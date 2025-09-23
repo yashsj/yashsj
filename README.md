@@ -35,13 +35,44 @@ Recent work includes using OpenAI embeddings and vector databases to speed up de
 
 ---
 
-## 🛠 Skills
+## 💻 Tech Stack
 
-- **Languages:** Python, Java, JavaScript, SQL, HTML/CSS
-- **Cloud/DevOps:** AWS, GCP, Jenkins, Docker, Git
-- **Frameworks:** PyTest, Selenium, FastAPI, React, TailwindCSS, LangChain, Spring Boot, Microservices
-- **Machine Learning:** Hugging Face, Transformers, PyTorch, Keras, Pandas
-- **APIs & Tooling:** REST APIs, Test Automation, Appium, Postman, JIRA
+**Languages & Databases:**  
+![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/sql-%2307405e.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Cassandra](https://img.shields.io/badge/cassandra-%23385C4D.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+**Cloud, DevOps & Tools:**  
+![AWS](https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+![Zephyr](https://img.shields.io/badge/zephyr-%23B7C9E2.svg?style=for-the-badge&logoColor=white)
+
+**Frameworks & Libraries:**  
+![PyTest](https://img.shields.io/badge/pytest-%230A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)
+![Selenium](https://img.shields.io/badge/selenium-%2343b02a.svg?style=for-the-badge&logo=selenium&logoColor=white)
+![FastAPI](https://img.shields.io/badge/fastapi-%2300C7B7.svg?style=for-the-badge&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338b2ac.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![LangChain](https://img.shields.io/badge/langchain-%2332d687.svg?style=for-the-badge&logoColor=white)
+
+**Machine Learning & Data Science:**  
+![PyTorch](https://img.shields.io/badge/pytorch-%23ee4c2c.svg?style=for-the-badge&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/huggingface-%23FFD21A.svg?style=for-the-badge&logo=hugging-face&logoColor=black)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%230A84FF.svg?style=for-the-badge&logo=matplotlib&logoColor=white)
+
+
 
 ---
 
