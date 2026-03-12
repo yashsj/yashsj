@@ -85,8 +85,8 @@ Recent work includes using OpenAI embeddings and vector databases to speed up de
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=suyash-jawadekar&show_icons=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=suyash-jawadekar&layout=compact)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yashsj&show_icons=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yashsj&layout=compact)
 
 ---
 
