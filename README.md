@@ -1,76 +1,42 @@
-# Hi, I'm Suyash Jawadekar 👋
+# Hi, I'm Suyash 👋
 
-**Software Engineer focused on backend systems, AI-powered tools, and scalable web platforms.**
+📍 Frisco, Texas &nbsp;|&nbsp; 🤖 Backend & AI Systems Builder
 
-📍 Frisco, Texas  
-🌐 [Portfolio](https://suyashjawadekar.vercel.app/)  
-💼 [LinkedIn](https://www.linkedin.com/in/suyash-jawadekar/)  
-📫 [Email](mailto:suyash048@gmail.com)
+I build backend systems, AI-powered tools, and agentic workflows. Focused on making systems smarter, faster, and easier to debug at scale.
 
 ---
 
-## About me
+## Tech Stack
 
-I'm a Software Engineer with experience building backend services, automation workflows, and AI-driven developer tooling.
-
-My recent work has focused on semantic search, debugging systems, distributed services, and data-heavy applications.
-
-I enjoy working across backend engineering, machine learning applications, and developer productivity tools. Lately, I’ve also been building projects that combine LLMs, embeddings, and search to make systems easier to debug and use.
-
----
-
-## Experience highlights
-
-### Amdocs — Sr. Software Engineer
-
-- Built and supported large-scale telecom systems used in billing, provisioning, and validation workflows.
-- Engineered microservices and backend improvements for high-reliability environments.
-- Developed an AI-powered semantic search/debugging platform using embeddings, LangChain, and ChromaDB, reducing lookup time by 40%+.
-- Automated validation and data workflows with Python, SQL, and CI/CD tooling, cutting feedback cycles significantly.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat&logo=google&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=chainlink&logoColor=white)
 
 ---
 
-## Featured projects
+## Featured Projects
 
-### ReviewRecommender
-AI-powered review search system using embeddings, vector search, and NLP to find relevant Yelp reviews by intent and sentiment.
+[ReviewRecommender](https://github.com/yashsj/ReviewRecommender) — AI review search using embeddings, vector search, and NLP to surface Yelp reviews by intent and sentiment.
 
-### SpeechNet
-Deep learning audio classification pipeline for speech vs noise detection, built with scalable preprocessing and model training workflows.
+[SpeechNet](https://github.com/yashsj/SpeechNet) — Deep learning audio classification pipeline for speech vs noise detection with scalable preprocessing.
 
-### Bug Tracking Tool
-Internal tooling project focused on debugging efficiency, issue visibility, and workflow improvements.
+[Bug Tracking Tool](https://github.com/yashsj) — Semantic search + debugging platform using LangChain and ChromaDB — cut lookup time by 40%+.
 
 ---
 
-## Tech stack
+## Past Work
 
-**Languages:** Python, Java, JavaScript, SQL  
-**Backend:** Spring Boot, FastAPI, Microservices  
-**AI/ML:** LangChain, OpenAI Embeddings, ChromaDB, PyTorch, Pandas  
-**Cloud/Tools:** AWS, Docker, Jenkins, Git, GitHub Actions
+[Amdocs](https://www.amdocs.com/) **@ Amdocs** — Large-scale telecom billing, provisioning, and validation systems. Built AI-powered semantic search reducing debug time 40%+.
 
 ---
 
-## Education
+## Let's Connect
 
-- **Stevens Institute of Technology** — MS in Information Systems, GPA 3.86
-- **K.J. Somaiya College of Engineering** — B.Tech in Computer Science
-
----
-
-## GitHub stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yashsj&show_icons=true&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yashsj&layout=compact&hide_border=true)
-
-## Activity Graph
-
-[![Suyash's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=yashsj&theme=github-compact&hide_border=true)](https://github.com/yashsj)
-
----
-
-## Connect
-
-I’m interested in backend engineering, AI/ML products, and scalable developer tools. I’m always happy to connect with engineers, builders, and teams working on interesting systems.
+[Portfolio](https://suyashjawadekar.vercel.app/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/suyash-jawadekar/) &nbsp;·&nbsp; [Email](mailto:suyash048@gmail.com)
