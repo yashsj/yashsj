@@ -1,4 +1,4 @@
-# Hi, I'm Suyash 👋
+# Hi, I'm Suyash J 👋
 
 📍 Frisco, Texas &nbsp;|&nbsp; 💼 Backend & AI Systems Builder
 
