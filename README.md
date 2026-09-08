@@ -1,35 +1,35 @@
-# Hi, I'm Suyash J 👋
+# SUYASH J
 
-📍 Frisco, Texas &nbsp;|&nbsp; 💼 Backend & AI Systems Builder
+**Backend + AI Systems Builder**
+Frisco, Texas
 
-I build backend systems, AI-powered tools, and agentic workflows. Focused on making systems smarter, faster, and easier to debug at scale.
+I build backend systems, AI-powered tools, and agentic workflows.
+Focused on systems that are faster, more reliable, and easier to debug.
 
----
+## SELECTED WORK
 
-## Tech Stack
+### portfolio-agent
+Grounded conversational AI agent template that answers from real facts, checks calendar availability, and books meetings without hallucinating.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Google_Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat&logo=google&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=chainlink&logoColor=white)
+### shipped
+Production backend project covering CI/CD, deployment hardening, caching, and observability.
 
----
+### portfolio-site
+Developer portfolio built with React and Tailwind, with dark mode, responsive layout, and contact flow.
 
-## Featured Projects
+## STACK
 
-[portfolio-agent](https://github.com/yashsj/portfolio-agent) — A grounded conversational AI agent template that answers questions from your own facts, checks real calendar availability, and books real meetings without ever inventing an answer.
+Python · TypeScript · PostgreSQL · DynamoDB · AWS · GCP · Docker · gRPC · LangChain
 
-[portfolio-site](https://github.com/yashsj/portfolio-site) — A modern, responsive developer portfolio built with React, Tailwind CSS, and EmailJS, featuring dark mode, a contact form, and a mobile-first design.
+## CURRENT FOCUS
 
-[shipped](https://github.com/yashsj/shipped) — A production backend project covering CI/CD, deployment hardening, caching, and observability, deployed live at shipped-theta.vercel.app.
+- Backend architecture
+- AI agents
+- Reliability and observability
+- Production-ready developer tools
 
----
+## LINKS
 
-## Let's Connect
-
-[Portfolio](https://suyashjawadekar.vercel.app) &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/) &nbsp;|&nbsp; [Email](mailto:)
+- Portfolio: https://suyashjawadekar.vercel.app/
+- Repositories: https://github.com/yashsj?tab=repositories
+- Featured project: https://github.com/yashsj/portfolio-agent
