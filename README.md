@@ -1,7 +1,7 @@
 # SUYASH J
 
 **Backend + AI Systems Builder**
-Frisco, Texas
+
 
 I build backend systems, AI-powered tools, and agentic workflows.
 Focused on systems that are faster, more reliable, and easier to debug.
