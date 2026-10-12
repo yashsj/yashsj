@@ -1,35 +1,80 @@
-# SUYASH J
+<div align="center">
 
-**Backend + AI Systems Builder**
+# Suyash Jawadekar
 
+### Backend systems. Practical AI. Things that actually work.
 
-I build backend systems, AI-powered tools, and agentic workflows.
-Focused on systems that are faster, more reliable, and easier to debug.
+I build reliable backend services and AI-powered tools.<br>
+Interested in distributed systems, developer experience, and making complex things simpler.
 
-## SELECTED WORK
+[Explore my projects](https://github.com/yashsj?tab=repositories) · [Backend notes](https://github.com/yashsj/Backend_from_1st_principles)
 
-### portfolio-agent
-Grounded conversational AI agent template that answers from real facts, checks calendar availability, and books meetings without hallucinating.
+</div>
 
-### shipped
-Production backend project covering CI/CD, deployment hardening, caching, and observability.
+---
 
-### portfolio-site
-Developer portfolio built with React and Tailwind, with dark mode, responsive layout, and contact flow.
+```text
+suyash@dev:~$ whoami
 
-## STACK
+> Software engineer building backend systems and practical AI applications.
+> I care about what happens after the happy path.
+```
 
-Python · TypeScript · PostgreSQL · DynamoDB · AWS · GCP · Docker · gRPC · LangChain
+## A little about me
 
-## CURRENT FOCUS
+- I work on APIs, workers, task execution, and cloud-based services.
+- I enjoy turning AI ideas into useful applications—not just demos.
+- I think about retries, timeouts, idempotency, observability, and failure recovery.
+- I learn by building, asking questions, and explaining things from first principles.
 
-- Backend architecture
-- AI agents
-- Reliability and observability
-- Production-ready developer tools
+## Selected work
 
-## LINKS
+### 🤖 Portfolio Agent
+An AI-powered way to explore my work through conversation, with grounded answers and scheduling capabilities.
 
-- Portfolio: https://suyashjawadekar.vercel.app/
-- Repositories: https://github.com/yashsj?tab=repositories
-- Featured project: https://github.com/yashsj/portfolio-agent
+[Find the project →](https://github.com/yashsj?tab=repositories&q=portfolio-agent)
+
+### 🧠 Backend From First Principles
+My notes and explanations on backend engineering—breaking down how things work instead of stopping at the abstraction.
+
+[Explore the notes →](https://github.com/yashsj/Backend_from_1st_principles)
+
+### 🚀 Shipped
+A project focused on putting ideas into practice and building something usable.
+
+[Find the project →](https://github.com/yashsj?tab=repositories&q=shipped)
+
+## Tools I use
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,ts&theme=dark" alt="Python and TypeScript" />
+
+**Backend & data**
+
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,dynamodb&theme=dark" alt="FastAPI, PostgreSQL, and DynamoDB" />
+
+**Cloud & tooling**
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,git&theme=dark" alt="AWS, Google Cloud, Docker, Kubernetes, and Git" />
+
+## What interests me
+
+```text
+request → API → queue → worker → result
+              ↳ retries · observability · recovery
+```
+
+- Backend architecture that stays understandable as it grows.
+- AI applications grounded in useful data and real workflows.
+- Developer tools that make building and debugging less painful.
+
+---
+
+<div align="center">
+
+### Less noise. More useful things.
+
+[Browse my work](https://github.com/yashsj?tab=repositories)
+
+</div>
