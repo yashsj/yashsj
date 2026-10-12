@@ -1,177 +1,210 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1000" height="360" viewBox="0 0 1000 360"
-     role="img" aria-labelledby="title desc">
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/yashsj/yashsj/main/assets/system-header.svg"
+    alt="Suyash Jawadekar — animated backend and AI system diagram"
+    width="100%"
+  />
+</p>
 
-  <title id="title">Suyash Jawadekar — Production AI and Reliable Backends</title>
-  <desc id="desc">
-    A system diagram showing requests flowing through an AI agent, verified
-    tools, memory, validation, and output.
-  </desc>
+<div align="center">
 
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#07111f"/>
-      <stop offset="100%" stop-color="#10243a"/>
-    </linearGradient>
+### Production AI. Reliable backends. Built beyond the happy path.
 
-    <radialGradient id="ambient">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity=".25"/>
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
-    </radialGradient>
+Senior Software Engineer building cloud services and production LLM systems.<br>
+Currently building at Shipped.ai · Previously at Amdocs · Co-founder of RadnessTech
 
-    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
-      <path d="M25 0H0V25" fill="none" stroke="#38bdf8" stroke-opacity=".07"/>
-    </pattern>
+[Explore my projects](https://github.com/yashsj?tab=repositories) · [Backend notes](https://github.com/yashsj/Backend_from_1st_principles) · [Say hello](mailto:suyashjawadekar@gmail.com)
 
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+</div>
 
-  <rect width="1000" height="360" rx="20" fill="url(#background)"/>
-  <rect width="1000" height="360" rx="20" fill="url(#grid)"/>
-  <ellipse cx="500" cy="190" rx="420" ry="170" fill="url(#ambient)"/>
-  <rect x="1" y="1" width="998" height="358" rx="19"
-        fill="none" stroke="#38bdf8" stroke-opacity=".2"/>
+---
 
-  <g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
-    <text x="500" y="64" fill="#f0f6fc"
-          font-size="34" font-weight="700" letter-spacing="2">
-      SUYASH JAWADEKAR
-    </text>
-    <text x="500" y="95" fill="#7dd3fc"
-          font-size="15" letter-spacing="3">
-      BACKEND / AI / PRODUCTION
-    </text>
-  </g>
+## 👋 A little about me
 
-  <g fill="none" stroke="#38bdf8" stroke-opacity=".3" stroke-width="2">
-    <path d="M220 175H320"/>
-    <path d="M480 175H580"/>
-    <path d="M760 175H830"/>
-    <path d="M400 198V242"/>
-    <path d="M670 198V242"/>
-  </g>
+I enjoy turning complex systems into useful products—and making sure they
+still work when the happy path ends.
 
-  <g fill="#0b192b" stroke="#38bdf8" stroke-opacity=".55">
-    <rect x="80" y="152" width="140" height="46" rx="10"/>
-    <rect x="320" y="152" width="160" height="46" rx="10"/>
-    <rect x="580" y="152" width="180" height="46" rx="10"/>
-    <rect x="830" y="152" width="100" height="46" rx="10"/>
-  </g>
+My work spans backend engineering, cloud infrastructure, and applied AI:
+from APIs and distributed workers to grounded agents, evaluation pipelines,
+and voice-first applications.
 
-  <rect x="320" y="152" width="160" height="46" rx="10" fill="#38bdf8" opacity="0">
-    <animate attributeName="opacity"
-             values="0;0;.18;0;0"
-             keyTimes="0;.14;.20;.30;1"
-             dur="6s" repeatCount="indefinite"/>
-  </rect>
+```text
+suyash@dev:~$ cat engineering-principles.txt
 
-  <rect x="580" y="152" width="180" height="46" rx="10" fill="#38bdf8" opacity="0">
-    <animate attributeName="opacity"
-             values="0;0;.16;0;0"
-             keyTimes="0;.39;.45;.55;1"
-             dur="6s" repeatCount="indefinite"/>
-  </rect>
+Ground answers in evidence.
+Verify actions in the backend.
+Measure before optimizing.
+Design for failure, not just success.
+Keep learning from first principles.
+```
 
-  <g fill="#0b192b" stroke="#38bdf8" stroke-opacity=".3">
-    <rect x="335" y="242" width="130" height="38" rx="9"/>
-    <rect x="595" y="242" width="150" height="38" rx="9"/>
-  </g>
+## ⚡ What I build
 
-  <rect x="595" y="242" width="150" height="38" rx="9" fill="#22c55e" opacity="0">
-    <animate attributeName="opacity"
-             values="0;0;.24;0;0"
-             keyTimes="0;.52;.57;.65;1"
-             dur="6s" repeatCount="indefinite"/>
-  </rect>
+- Production AI agents with grounded answers and verified tool execution.
+- Backend services with retries, timeouts, idempotency, and clear failure handling.
+- Evaluation pipelines that catch regressions before release.
+- Cloud deployments with observability across inference, retrieval, and tool calls.
 
-  <g fill="#e2e8f0" text-anchor="middle" font-family="monospace" font-size="13">
-    <text x="150" y="180">INPUT</text>
-    <text x="400" y="180">AGENT</text>
-    <text x="670" y="180">VERIFIED TOOLS</text>
-    <text x="880" y="180">OUTPUT</text>
-    <text x="400" y="266" fill="#94a3b8">MEMORY</text>
-    <text x="670" y="266" fill="#94a3b8">VALIDATION</text>
-  </g>
+## 🛠️ Where I've built
 
-  <circle r="4" fill="#7dd3fc" filter="url(#glow)" opacity="0">
-    <animateMotion path="M220 175H320"
-                   keyPoints="0;0;1;1"
-                   keyTimes="0;.05;.20;1"
-                   calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="0;1;0"
-             keyTimes="0;.05;.20"
-             calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
-  </circle>
+### Shipped.ai · AI Engineer
+*May 2025 — Present*
 
-  <circle r="4" fill="#7dd3fc" filter="url(#glow)" opacity="0">
-    <animateMotion path="M480 175H580"
-                   keyPoints="0;0;1;1"
-                   keyTimes="0;.25;.45;1"
-                   calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="0;1;0"
-             keyTimes="0;.25;.45"
-             calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
-  </circle>
+Building production LLM systems across conversational agents, grounded RAG,
+model evaluation, and agent infrastructure.
 
-  <circle r="3" fill="#38bdf8" opacity="0">
-    <animateMotion path="M400 198V242"
-                   keyPoints="0;0;1;1"
-                   keyTimes="0;.22;.35;1"
-                   calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="0;1;0"
-             keyTimes="0;.22;.35"
-             calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
-  </circle>
+- Reduced inference latency from approximately 4 seconds to 1 second.
+- Used an 81-case held-out regression suite to evaluate changes.
+- Implemented backend safeguards, observability, and authorized tool execution.
 
-  <circle r="3" fill="#4ade80" opacity="0">
-    <animateMotion path="M670 198V242"
-                   keyPoints="0;0;1;1"
-                   keyTimes="0;.45;.57;1"
-                   calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="0;1;0"
-             keyTimes="0;.45;.57"
-             calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
-  </circle>
+### Amdocs · Senior Software Engineer
+*August 2021 — November 2024*
 
-  <circle r="4" fill="#4ade80" filter="url(#glow)" opacity="0">
-    <animateMotion path="M760 175H830"
-                   keyPoints="0;0;1;1"
-                   keyTimes="0;.65;.80;1"
-                   calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="0;1;0"
-             keyTimes="0;.65;.80"
-             calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
-  </circle>
+Built Python backend systems and cloud-based validation tooling, integrated
+with CI/CD pipelines.
 
-  <g font-family="monospace" font-size="12" fill="#94a3b8">
-    <circle cx="305" cy="322" r="3" fill="#4ade80"/>
-    <text x="316" y="326">grounded</text>
+- Reduced system validation runtime from 2 hours to 20 minutes.
+- Automated data provisioning and improved delivery turnaround.
+- Built semantic search across more than 1,400 records.
 
-    <circle cx="460" cy="322" r="3" fill="#38bdf8"/>
-    <text x="471" y="326">observable</text>
+### RadnessTech · Co-founder
+*2018 — 2021*
 
-    <circle cx="635" cy="322" r="3" fill="#4ade80"/>
-    <text x="646" y="326">reliable</text>
-  </g>
-</svg>
+Co-founded a tech media startup and helped lead product direction,
+engineering coordination, and publishing workflows.
+
+- Android app reached approximately 10,000 installs.
+- YouTube channel grew to approximately 8,000 subscribers.
+
+## 🚀 Selected work
+
+### 🛒 Composable AI Shopping Agent
+
+An AI shopping assistant focused on faster conversations, verified
+transactional actions, and reliable integrations.
+
+- Reduced returning-user turn-2 response time from 7.4 seconds to 3.4 seconds
+  using session caching and concurrent API requests.
+- Prevented fabricated checkout links by requiring an exact match
+  with verified tool output.
+- Debugged production Cloud Run services across webhook registration,
+  signing secrets, and container revisions.
+
+`Agentic AI` · `Caching` · `Tool validation` · `GCP Cloud Run`
+
+### 🎙️ Voice-First Portfolio Assistant
+
+A conversational way to explore my experience, skills, and projects—with
+voice interaction and calendar integration.
+
+- Integrates Gemini, Deepgram, and Google Calendar.
+- Uses grounded tool calling with server-side authorization.
+- Revalidates calendar availability before executing scheduling actions.
+
+`Voice AI` · `Gemini` · `Deepgram` · `Google Calendar`
+
+[Find the portfolio agent →](https://github.com/yashsj?tab=repositories&q=portfolio-agent)
+
+### 🧠 Backend From First Principles
+
+My notes and explanations on backend engineering:
+how things work, why they work that way, and where the trade-offs are.
+
+`Backend engineering` · `First principles` · `Learning in public`
+
+[Explore the notes →](https://github.com/yashsj/Backend_from_1st_principles)
+
+### 🔎 ReviewRecommender
+
+A semantic review recommendation system that surfaces relevant Yelp reviews
+using embeddings and vector search, with emotion-based filtering.
+
+`Sentence Transformers` · `ChromaDB` · `Hugging Face`
+
+[Browse my repositories →](https://github.com/yashsj?tab=repositories)
+
+## 💻 Tools I use
+
+### Languages
+
+<p>
+  <img
+    src="https://skillicons.dev/icons?i=python,ts,java&theme=dark"
+    alt="Python, TypeScript, and Java"
+  />
+</p>
+
+### Backend & data
+
+<p>
+  <img
+    src="https://skillicons.dev/icons?i=fastapi,mysql,kafka&theme=dark"
+    alt="FastAPI, MySQL, and Kafka"
+  />
+</p>
+
+### Cloud & infrastructure
+
+<p>
+  <img
+    src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,jenkins,git&theme=dark"
+    alt="AWS, Google Cloud, Docker, Kubernetes, Jenkins, and Git"
+  />
+</p>
+
+### AI & LLM systems
+
+`Amazon Bedrock` · `AgentCore` · `LangChain` · `RAG` · `Tool calling`
+
+`Embeddings` · `Vector search` · `LoRA / QLoRA` · `LLM evaluation`
+
+## 🧩 How I think about systems
+
+```text
+                         ┌── evaluation
+                         │
+request → API → agent → verified tools → result
+           │      │             │
+           │      └── retrieval │
+           │                    │
+           └── authorization ───┘
+
+Across every step: observability · timeouts · retries · recovery
+```
+
+A model can propose an action. The backend decides whether it is authorized
+and valid.
+
+I'm interested in what happens when a request arrives twice, a dependency
+times out, a worker crashes, or an agent produces a convincing answer
+without supporting evidence.
+
+## 🟩 Building, one commit at a time
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-light.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-light.svg"
+      alt="My contribution graph assembling itself from falling squares"
+      width="100%"
+    />
+  </picture>
+</p>
+
+---
+
+<div align="center">
+
+### Less noise. More useful things.
+
+[Browse my work](https://github.com/yashsj?tab=repositories) · [Get in touch](mailto:suyashjawadekar@gmail.com)
+
+</div>
