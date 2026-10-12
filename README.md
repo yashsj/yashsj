@@ -1,7 +1,7 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0284C7&height=100&section=header"
-    alt=""
+    src="https://raw.githubusercontent.com/yashsj/yashsj/main/assets/system-header.svg"
+    alt="Suyash Jawadekar — animated backend and AI system diagram"
     width="100%"
   />
 </p>
