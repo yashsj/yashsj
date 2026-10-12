@@ -111,27 +111,22 @@ I'm interested in what happens when a request arrives twice, a dependency
 times out, a worker crashes, or a system needs to grow without becoming
 harder to understand.
 
-## Beyond the code
 
-- Exploring backend architecture and distributed systems.
-- Building AI tools around useful data and real workflows.
-- Writing down what I learn so the next explanation is clearer.
-
-## Contributions, with a twist
+## Building, one commit at a time
 
 <p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/github-snake-dark.svg"
+      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/github-snake.svg"
+      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-light.svg"
     />
     <img
-      alt="A snake animation moving through my GitHub contribution graph"
-      src="https://raw.githubusercontent.com/yashsj/yashsj/output/github-snake.svg"
+      src="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-light.svg"
+      alt="My contribution graph assembling itself from falling squares"
       width="100%"
     />
   </picture>
