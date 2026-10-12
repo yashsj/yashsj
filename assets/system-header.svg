@@ -1,28 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1000" height="360" viewBox="0 0 1000 360"
-     role="img" aria-labelledby="title desc">
+     width="1000" height="380" viewBox="0 0 1000 380"
+     role="img" aria-labelledby="title description">
 
-  <title id="title">Suyash Jawadekar — Backend, AI, Production</title>
-  <desc id="desc">
-    Animated blue packets move from input through an AI agent and
-    verified tools to output. Memory and validation support the system.
+  <title id="title">Suyash J — Backend and AI Engineer</title>
+  <desc id="description">
+    A dark engineering console with an animated orbital core,
+    flowing blue signals, and a verified execution pipeline.
+    Decorative animation, not a live system dashboard.
   </desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#07111f"/>
-      <stop offset="100%" stop-color="#10243a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050a14"/>
+      <stop offset=".55" stop-color="#0b1527"/>
+      <stop offset="1" stop-color="#10263b"/>
     </linearGradient>
 
-    <radialGradient id="ambient">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity=".22"/>
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset=".55" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".20"/>
+      <stop offset=".5" stop-color="#6366f1" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="grid" width="25" height="25"
+    <pattern id="grid" width="24" height="24"
              patternUnits="userSpaceOnUse">
-      <path d="M25 0H0V25" fill="none"
-            stroke="#38bdf8" stroke-opacity=".07"/>
+      <path d="M24 0H0V24"
+            fill="none" stroke="#7dd3fc" stroke-opacity=".045"/>
     </pattern>
 
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
@@ -32,169 +41,218 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <clipPath id="panel">
+      <rect x="1" y="1" width="998" height="378" rx="22"/>
+    </clipPath>
   </defs>
 
-  <!-- Background -->
-  <rect width="1000" height="360" rx="20" fill="url(#background)"/>
-  <rect width="1000" height="360" rx="20" fill="url(#grid)"/>
-  <ellipse cx="500" cy="190" rx="420" ry="170" fill="url(#ambient)"/>
-  <rect x="1" y="1" width="998" height="358" rx="19"
-        fill="none" stroke="#38bdf8" stroke-opacity=".2"/>
+  <!-- Panel -->
+  <g clip-path="url(#panel)">
+    <rect width="1000" height="380" fill="url(#bg)"/>
+    <rect width="1000" height="380" fill="url(#grid)"/>
+    <ellipse cx="790" cy="151" rx="245" ry="205" fill="url(#halo)"/>
 
-  <!-- Static identity -->
-  <g text-anchor="middle"
-     font-family="Segoe UI, Arial, sans-serif">
-    <text x="500" y="64" fill="#f0f6fc"
-          font-size="34" font-weight="700" letter-spacing="2">
-      SUYASH JAWADEKAR
+    <!-- Subtle diagonal architecture lines -->
+    <g fill="none" stroke="#38bdf8" stroke-opacity=".08">
+      <path d="M590 0L970 380"/>
+      <path d="M650 0L1000 350"/>
+      <path d="M710 0L1000 290"/>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="998" height="378" rx="22"
+        fill="none" stroke="#7dd3fc" stroke-opacity=".18"/>
+
+  <!-- Top console bar -->
+  <g>
+    <circle cx="32" cy="25" r="4" fill="#fb7185" opacity=".75"/>
+    <circle cx="48" cy="25" r="4" fill="#fbbf24" opacity=".75"/>
+    <circle cx="64" cy="25" r="4" fill="#4ade80" opacity=".75"/>
+
+    <text x="87" y="29"
+          font-family="monospace" font-size="11" fill="#64748b">
+      suyash / engineering
     </text>
-    <text x="500" y="95" fill="#7dd3fc"
-          font-size="15" letter-spacing="3">
-      BACKEND / AI / PRODUCTION
+
+    <path d="M24 45H976" stroke="#94a3b8" stroke-opacity=".10"/>
+  </g>
+
+  <!-- Identity -->
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="48" y="92" font-family="monospace"
+          font-size="11" letter-spacing="3" fill="#7dd3fc">
+      BUILDING BEYOND THE HAPPY PATH
+    </text>
+
+    <text x="44" y="160" font-size="66"
+          font-weight="700" letter-spacing="-2" fill="#f1f5f9">
+      Suyash J<tspan fill="#38bdf8">.</tspan>
+    </text>
+
+    <text x="48" y="195" font-size="19" fill="#cbd5e1">
+      Backend systems. Practical AI.
+    </text>
+
+    <text x="48" y="223" font-size="14" fill="#8494aa">
+      Grounded answers. Verified actions. Reliable execution.
     </text>
   </g>
 
-  <!-- Connection tracks -->
-  <g fill="none" stroke="#38bdf8" stroke-opacity=".3"
+  <rect x="48" y="243" width="330" height="2" rx="1"
+        fill="url(#accent)" opacity=".85"/>
+
+  <!-- Orbital core: outer segmented ring -->
+  <g transform="translate(790 158)">
+    <circle r="99" fill="none" stroke="#38bdf8"
+            stroke-opacity=".12" stroke-width="1"/>
+
+    <g>
+      <circle r="88" fill="none" stroke="#38bdf8"
+              stroke-width="2" stroke-dasharray="95 35 12 35"
+              stroke-opacity=".55"/>
+      <animateTransform attributeName="transform"
+                        type="rotate" from="0" to="360"
+                        dur="28s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Counter-rotating inner orbit -->
+    <g>
+      <circle r="66" fill="none" stroke="#a78bfa"
+              stroke-width="1.5" stroke-dasharray="60 22"
+              stroke-opacity=".55"/>
+      <circle cx="66" cy="0" r="4"
+              fill="#c4b5fd" filter="url(#glow)"/>
+      <animateTransform attributeName="transform"
+                        type="rotate" from="360" to="0"
+                        dur="20s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Orbiting blue signal -->
+    <g>
+      <circle cx="0" cy="-88" r="4"
+              fill="#7dd3fc" filter="url(#glow)"/>
+      <animateTransform attributeName="transform"
+                        type="rotate" from="0" to="360"
+                        dur="12s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Center -->
+    <circle r="43" fill="#0a1628"
+            stroke="#38bdf8" stroke-opacity=".5"/>
+
+    <circle r="37" fill="#38bdf8" opacity=".04">
+      <animate attributeName="opacity"
+               values=".04;.14;.04"
+               dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <g text-anchor="middle" font-family="monospace">
+      <text y="-3" font-size="15" font-weight="700" fill="#e2e8f0">
+        BUILD
+      </text>
+      <text y="15" font-size="9" letter-spacing="2" fill="#7dd3fc">
+        / VERIFY
+      </text>
+    </g>
+
+    <!-- Compass ticks -->
+    <g stroke="#94a3b8" stroke-opacity=".4">
+      <path d="M0 -106V-113"/>
+      <path d="M106 0H113"/>
+      <path d="M0 106V113"/>
+      <path d="M-106 0H-113"/>
+    </g>
+  </g>
+
+  <!-- Processing pipeline -->
+  <path d="M48 275H952" stroke="#94a3b8" stroke-opacity=".10"/>
+
+  <g fill="none" stroke="#38bdf8" stroke-opacity=".25"
      stroke-width="2">
-    <path d="M220 175H320"/>
-    <path d="M480 175H580"/>
-    <path d="M760 175H830"/>
-    <path d="M400 198V242"/>
-    <path d="M670 198V242"/>
+    <path d="M198 309H277"/>
+    <path d="M427 309H506"/>
+    <path d="M696 309H775"/>
   </g>
 
-  <!-- Main nodes -->
-  <g fill="#0b192b" stroke="#38bdf8" stroke-opacity=".55">
-    <rect x="80" y="152" width="140" height="46" rx="10"/>
-    <rect x="320" y="152" width="160" height="46" rx="10"/>
-    <rect x="580" y="152" width="180" height="46" rx="10"/>
-    <rect x="830" y="152" width="100" height="46" rx="10"/>
+  <g fill="#0b192b" stroke="#38bdf8" stroke-opacity=".3">
+    <rect x="48" y="289" width="150" height="40" rx="8"/>
+    <rect x="277" y="289" width="150" height="40" rx="8"/>
+    <rect x="506" y="289" width="190" height="40" rx="8"/>
+    <rect x="775" y="289" width="177" height="40" rx="8"/>
   </g>
 
-  <!-- Agent activity pulse -->
-  <rect x="320" y="152" width="160" height="46" rx="10"
-        fill="#38bdf8" opacity="0">
-    <animate attributeName="opacity"
-             values="0;0;.18;0;0"
-             keyTimes="0;.14;.20;.30;1"
-             dur="6s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Verified tools activity pulse -->
-  <rect x="580" y="152" width="180" height="46" rx="10"
+  <!-- Inference pulse -->
+  <rect x="277" y="289" width="150" height="40" rx="8"
         fill="#38bdf8" opacity="0">
     <animate attributeName="opacity"
              values="0;0;.16;0;0"
-             keyTimes="0;.39;.45;.55;1"
-             dur="6s" repeatCount="indefinite"/>
+             keyTimes="0;.15;.23;.32;1"
+             dur="7s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Supporting nodes -->
-  <g fill="#0b192b" stroke="#38bdf8" stroke-opacity=".3">
-    <rect x="335" y="242" width="130" height="38" rx="9"/>
-    <rect x="595" y="242" width="150" height="38" rx="9"/>
-  </g>
-
-  <!-- Validation flashes before output is released -->
-  <rect x="595" y="242" width="150" height="38" rx="9"
-        fill="#22c55e" opacity="0">
+  <!-- Verification pulse -->
+  <rect x="506" y="289" width="190" height="40" rx="8"
+        fill="#4ade80" opacity="0">
     <animate attributeName="opacity"
-             values="0;0;.24;0;0"
-             keyTimes="0;.52;.57;.65;1"
-             dur="6s" repeatCount="indefinite"/>
+             values="0;0;.16;0;0"
+             keyTimes="0;.42;.50;.60;1"
+             dur="7s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Labels -->
-  <g fill="#e2e8f0" text-anchor="middle"
-     font-family="monospace" font-size="13">
-    <text x="150" y="180">INPUT</text>
-    <text x="400" y="180">AGENT</text>
-    <text x="670" y="180">VERIFIED TOOLS</text>
-    <text x="880" y="180">OUTPUT</text>
-    <text x="400" y="266" fill="#94a3b8">MEMORY</text>
-    <text x="670" y="266" fill="#94a3b8">VALIDATION</text>
+  <g text-anchor="middle" font-family="monospace"
+     font-size="11" letter-spacing="1">
+    <text x="123" y="313" fill="#cbd5e1">01 / REQUEST</text>
+    <text x="352" y="313" fill="#7dd3fc">02 / REASON</text>
+    <text x="601" y="313" fill="#86efac">03 / VERIFY</text>
+    <text x="863.5" y="313" fill="#cbd5e1">04 / EXECUTE</text>
   </g>
 
-  <!-- Input packet -->
-  <circle r="4" fill="#7dd3fc" filter="url(#glow)" opacity="0">
-    <animateMotion path="M220 175H320"
+  <!-- Signals: synchronized seven-second cycle -->
+  <circle r="3.5" fill="#7dd3fc" filter="url(#glow)" opacity="0">
+    <animateMotion path="M198 309H277"
                    keyPoints="0;0;1;1"
                    keyTimes="0;.05;.20;1"
                    calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
+                   dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity"
              values="0;1;0"
              keyTimes="0;.05;.20"
              calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
+             dur="7s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Agent to tools packet -->
-  <circle r="4" fill="#7dd3fc" filter="url(#glow)" opacity="0">
-    <animateMotion path="M480 175H580"
+  <circle r="3.5" fill="#7dd3fc" filter="url(#glow)" opacity="0">
+    <animateMotion path="M427 309H506"
                    keyPoints="0;0;1;1"
-                   keyTimes="0;.25;.45;1"
+                   keyTimes="0;.30;.45;1"
                    calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
+                   dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity"
              values="0;1;0"
-             keyTimes="0;.25;.45"
+             keyTimes="0;.30;.45"
              calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
+             dur="7s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Memory activity -->
-  <circle r="3" fill="#38bdf8" opacity="0">
-    <animateMotion path="M400 198V242"
+  <circle r="3.5" fill="#4ade80" filter="url(#glow)" opacity="0">
+    <animateMotion path="M696 309H775"
                    keyPoints="0;0;1;1"
-                   keyTimes="0;.22;.35;1"
+                   keyTimes="0;.60;.75;1"
                    calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
+                   dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity"
              values="0;1;0"
-             keyTimes="0;.22;.35"
+             keyTimes="0;.60;.75"
              calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
+             dur="7s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Validation activity -->
-  <circle r="3" fill="#4ade80" opacity="0">
-    <animateMotion path="M670 198V242"
-                   keyPoints="0;0;1;1"
-                   keyTimes="0;.45;.57;1"
-                   calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="0;1;0"
-             keyTimes="0;.45;.57"
-             calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Output is released after validation -->
-  <circle r="4" fill="#4ade80" filter="url(#glow)" opacity="0">
-    <animateMotion path="M760 175H830"
-                   keyPoints="0;0;1;1"
-                   keyTimes="0;.65;.80;1"
-                   calcMode="linear"
-                   dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="0;1;0"
-             keyTimes="0;.65;.80"
-             calcMode="discrete"
-             dur="6s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Status strip -->
-  <g font-family="monospace" font-size="12" fill="#94a3b8">
-    <circle cx="305" cy="322" r="3" fill="#4ade80"/>
-    <text x="316" y="326">grounded</text>
-
-    <circle cx="460" cy="322" r="3" fill="#38bdf8"/>
-    <text x="471" y="326">observable</text>
-
-    <circle cx="635" cy="322" r="3" fill="#4ade80"/>
-    <text x="646" y="326">reliable</text>
+  <!-- Footer -->
+  <g font-family="monospace" font-size="10" fill="#64748b">
+    <text x="48" y="355">PYTHON / CLOUD / AGENTIC SYSTEMS</text>
+    <text x="952" y="355" text-anchor="end">
+      LESS NOISE. MORE USEFUL THINGS.
+    </text>
   </g>
 </svg>
