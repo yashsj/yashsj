@@ -1,143 +1,177 @@
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/yashsj/yashsj/main/assets/system-header.svg"
-    alt="Suyash Jawadekar — animated backend and AI system diagram"
-    width="100%"
-  />
-</p>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000" height="360" viewBox="0 0 1000 360"
+     role="img" aria-labelledby="title desc">
 
-<div align="center">
+  <title id="title">Suyash Jawadekar — Production AI and Reliable Backends</title>
+  <desc id="desc">
+    A system diagram showing requests flowing through an AI agent, verified
+    tools, memory, validation, and output.
+  </desc>
 
-# Suyash Jawadekar
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#10243a"/>
+    </linearGradient>
 
-### Backend systems. Practical AI. Things that actually work.
+    <radialGradient id="ambient">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
 
-I build reliable backend services and AI-powered tools.<br>
-I care about how systems behave—not just when everything goes right.
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25" fill="none" stroke="#38bdf8" stroke-opacity=".07"/>
+    </pattern>
 
-[Explore my projects](https://github.com/yashsj?tab=repositories) · [Backend notes](https://github.com/yashsj/Backend_from_1st_principles)
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
-</div>
+  <rect width="1000" height="360" rx="20" fill="url(#background)"/>
+  <rect width="1000" height="360" rx="20" fill="url(#grid)"/>
+  <ellipse cx="500" cy="190" rx="420" ry="170" fill="url(#ambient)"/>
+  <rect x="1" y="1" width="998" height="358" rx="19"
+        fill="none" stroke="#38bdf8" stroke-opacity=".2"/>
 
----
+  <g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
+    <text x="500" y="64" fill="#f0f6fc"
+          font-size="34" font-weight="700" letter-spacing="2">
+      SUYASH JAWADEKAR
+    </text>
+    <text x="500" y="95" fill="#7dd3fc"
+          font-size="15" letter-spacing="3">
+      BACKEND / AI / PRODUCTION
+    </text>
+  </g>
 
-```text
-suyash@dev:~$ cat interests.txt
+  <g fill="none" stroke="#38bdf8" stroke-opacity=".3" stroke-width="2">
+    <path d="M220 175H320"/>
+    <path d="M480 175H580"/>
+    <path d="M760 175H830"/>
+    <path d="M400 198V242"/>
+    <path d="M670 198V242"/>
+  </g>
 
-backend engineering
-distributed systems
-practical AI
-building beyond the happy path
-```
+  <g fill="#0b192b" stroke="#38bdf8" stroke-opacity=".55">
+    <rect x="80" y="152" width="140" height="46" rx="10"/>
+    <rect x="320" y="152" width="160" height="46" rx="10"/>
+    <rect x="580" y="152" width="180" height="46" rx="10"/>
+    <rect x="830" y="152" width="100" height="46" rx="10"/>
+  </g>
 
-## About me
+  <rect x="320" y="152" width="160" height="46" rx="10" fill="#38bdf8" opacity="0">
+    <animate attributeName="opacity"
+             values="0;0;.18;0;0"
+             keyTimes="0;.14;.20;.30;1"
+             dur="6s" repeatCount="indefinite"/>
+  </rect>
 
-I'm a software engineer who enjoys building useful things and understanding
-what happens beneath the abstractions.
+  <rect x="580" y="152" width="180" height="46" rx="10" fill="#38bdf8" opacity="0">
+    <animate attributeName="opacity"
+             values="0;0;.16;0;0"
+             keyTimes="0;.39;.45;.55;1"
+             dur="6s" repeatCount="indefinite"/>
+  </rect>
 
-- Building APIs, workers, and cloud-based services.
-- Turning AI ideas into applications with practical workflows.
-- Thinking through retries, timeouts, idempotency, and failure recovery.
-- Learning by building—and explaining things from first principles.
+  <g fill="#0b192b" stroke="#38bdf8" stroke-opacity=".3">
+    <rect x="335" y="242" width="130" height="38" rx="9"/>
+    <rect x="595" y="242" width="150" height="38" rx="9"/>
+  </g>
 
-## Selected work
+  <rect x="595" y="242" width="150" height="38" rx="9" fill="#22c55e" opacity="0">
+    <animate attributeName="opacity"
+             values="0;0;.24;0;0"
+             keyTimes="0;.52;.57;.65;1"
+             dur="6s" repeatCount="indefinite"/>
+  </rect>
 
-### 🤖 Portfolio Agent
+  <g fill="#e2e8f0" text-anchor="middle" font-family="monospace" font-size="13">
+    <text x="150" y="180">INPUT</text>
+    <text x="400" y="180">AGENT</text>
+    <text x="670" y="180">VERIFIED TOOLS</text>
+    <text x="880" y="180">OUTPUT</text>
+    <text x="400" y="266" fill="#94a3b8">MEMORY</text>
+    <text x="670" y="266" fill="#94a3b8">VALIDATION</text>
+  </g>
 
-An AI-powered way to explore my work through conversation, with grounded
-answers and scheduling capabilities.
+  <circle r="4" fill="#7dd3fc" filter="url(#glow)" opacity="0">
+    <animateMotion path="M220 175H320"
+                   keyPoints="0;0;1;1"
+                   keyTimes="0;.05;.20;1"
+                   calcMode="linear"
+                   dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0;.05;.20"
+             calcMode="discrete"
+             dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-`AI agents` · `Grounded responses` · `Workflow integration`
+  <circle r="4" fill="#7dd3fc" filter="url(#glow)" opacity="0">
+    <animateMotion path="M480 175H580"
+                   keyPoints="0;0;1;1"
+                   keyTimes="0;.25;.45;1"
+                   calcMode="linear"
+                   dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0;.25;.45"
+             calcMode="discrete"
+             dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-[Explore the project →](https://github.com/yashsj?tab=repositories&q=portfolio-agent)
+  <circle r="3" fill="#38bdf8" opacity="0">
+    <animateMotion path="M400 198V242"
+                   keyPoints="0;0;1;1"
+                   keyTimes="0;.22;.35;1"
+                   calcMode="linear"
+                   dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0;.22;.35"
+             calcMode="discrete"
+             dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-### 🧠 Backend From First Principles
+  <circle r="3" fill="#4ade80" opacity="0">
+    <animateMotion path="M670 198V242"
+                   keyPoints="0;0;1;1"
+                   keyTimes="0;.45;.57;1"
+                   calcMode="linear"
+                   dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0;.45;.57"
+             calcMode="discrete"
+             dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-Notes and explanations that break down backend engineering concepts:
-how things work, why they work that way, and where the trade-offs are.
+  <circle r="4" fill="#4ade80" filter="url(#glow)" opacity="0">
+    <animateMotion path="M760 175H830"
+                   keyPoints="0;0;1;1"
+                   keyTimes="0;.65;.80;1"
+                   calcMode="linear"
+                   dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0;.65;.80"
+             calcMode="discrete"
+             dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-`Backend engineering` · `First principles` · `Learning in public`
+  <g font-family="monospace" font-size="12" fill="#94a3b8">
+    <circle cx="305" cy="322" r="3" fill="#4ade80"/>
+    <text x="316" y="326">grounded</text>
 
-[Read the notes →](https://github.com/yashsj/Backend_from_1st_principles)
+    <circle cx="460" cy="322" r="3" fill="#38bdf8"/>
+    <text x="471" y="326">observable</text>
 
-### 🌐 Portfolio Site
-
-A home for my projects and engineering work.
-
-`Web development` · `Project showcase`
-
-[Explore the project →](https://github.com/yashsj?tab=repositories&q=portfolio-site)
-
-## Tools I use
-
-### Languages
-
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=python,ts&theme=dark"
-    alt="Python and TypeScript"
-  />
-</p>
-
-### Backend & data
-
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=fastapi,postgres,dynamodb&theme=dark"
-    alt="FastAPI, PostgreSQL, and DynamoDB"
-  />
-</p>
-
-### Cloud & tooling
-
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,git&theme=dark"
-    alt="AWS, Google Cloud, Docker, Kubernetes, and Git"
-  />
-</p>
-
-## How I think about systems
-
-```text
-request → API → queue → worker → result
-                │         │
-                └─────────┴── retries · observability · recovery
-```
-
-The happy path is the beginning.
-
-I'm interested in what happens when a request arrives twice, a dependency
-times out, a worker crashes, or a system needs to grow without becoming
-harder to understand.
-
-
-## Building, one commit at a time
-
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-light.svg"
-    />
-    <img
-      src="https://raw.githubusercontent.com/yashsj/yashsj/output/contribution-grid-light.svg"
-      alt="My contribution graph assembling itself from falling squares"
-      width="100%"
-    />
-  </picture>
-</p>
-
----
-
-<div align="center">
-
-Less noise. More useful things.
-
-[Browse my work](https://github.com/yashsj?tab=repositories)
-
-</div>
+    <circle cx="635" cy="322" r="3" fill="#4ade80"/>
+    <text x="646" y="326">reliable</text>
+  </g>
+</svg>
