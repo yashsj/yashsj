@@ -1,7 +1,7 @@
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/yashsj/yashsj/main/assets/system-header.svg"
-    alt="Suyash Jawadekar — animated backend and AI system diagram"
+    alt="Suyash J. — animated backend and AI system diagram"
     width="100%"
   />
 </p>
