@@ -78,17 +78,25 @@ engineering coordination, and publishing workflows.
 
 ## 🚀 Selected work
 
-### 🛒 Composable AI Shopping Agent
+### 🛒 Composable AI Shopping Agent · Team Fourcast
 
-An AI shopping assistant focused on faster conversations, verified
-transactional actions, and reliable integrations.
+A team-built AI shopping agent that connects product discovery,
+personalized recommendations, live Shopify checkout, and post-purchase
+engagement across Gemini, Bloomreach, Shopify, and Databricks.
 
+Built for the Bloomreach Composable AI Hackathon 2026.
+
+My contributions:
 - Reduced returning-user turn-2 response time from 7.4 seconds to 3.4 seconds
-  using session caching and concurrent API requests.
-- Prevented fabricated checkout links by requiring an exact match
-  with verified tool output.
-- Debugged production Cloud Run services across webhook registration,
-  signing secrets, and container revisions.
+  through session caching and concurrent API requests.
+- Prevented fabricated checkout links by accepting transactional URLs
+  only when they exactly matched verified tool output.
+- Debugged and stabilized two Cloud Run services by resolving webhook
+  registration, signing-secret mismatches, and a stale container revision.
+
+`Gemini` · `Bloomreach` · `Shopify` · `Databricks` · `GCP Cloud Run`
+
+[Explore the team repository →](https://github.com/Seilarmoon7/Team_fourcast)
 
 `Agentic AI` · `Caching` · `Tool validation` · `GCP Cloud Run`
 
